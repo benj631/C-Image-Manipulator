@@ -1,0 +1,21 @@
+{
+  "configurations": [
+    {
+      "name": "Win32",
+      "includePath": [
+        "${workspaceFolder}/**",
+        "C:/Program Files/OpenCV/build/include",
+        "C:/Program Files/OpenCV",
+        "C:/Program Files/OpenCV/build",
+        "C:/Program Files/OpenCV/build/include",
+        "C:/Program Files/OpenCV/build/include/opencv2"
+      ],
+      "defines": [],
+      "compilerPath": "cl.exe",
+      "cStandard": "c11",
+      "cppStandard": "c++17",
+      "intelliSenseMode": "windows-msvc-x64"
+    }
+  ],
+  "version": 4
+}

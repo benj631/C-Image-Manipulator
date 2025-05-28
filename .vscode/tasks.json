@@ -1,0 +1,22 @@
+{
+  "version": "2.0.0",
+  "tasks": [
+    {
+      "label": "Build OpenCV with cl.exe",
+      "type": "shell",
+      "command": "cl.exe",
+      "args": [
+        "/EHsc",
+        "img_main.cpp",
+        "/I", "C:\\Program Files\\OpenCV\\build\\include",
+        "/I", "C:\\Program Files\\OpenCV\\build\\include\\opencv2",
+        "/link",
+        "C:\\Program Files\\OpenCV\\build\\x64\\vc16\\lib\\opencv_world4110.lib"
+      ],
+      "group": {
+        "kind": "build",
+        "isDefault": true
+      }
+    }
+  ]
+}
